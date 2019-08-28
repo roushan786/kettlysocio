@@ -77,7 +77,10 @@ img{
 	color: black !important;
 	
 }
-
+#bannerh {
+	background-image: url(banner\ up.jpg) !important;
+	background-size: cover;
+}
 
 .header-inner{	
 	display: inline;
@@ -326,7 +329,7 @@ img{
 
 .title-area {
 	
-	float: left;
+	
 	padding: 0 150px;  
 	text-align: center;
 	width: 100%;
@@ -346,14 +349,11 @@ img{
 
 
 .title-area .title::before {
-	content: "";
-	height: 2px;
-	left: 0;
-	position: absolute;
-	top: 60px;
-	width: 150px;
-}
 
+}
+.title-area .title::before {
+    background-color:none !important;
+}
 
 .title-area p{
 	color: #777777;
@@ -1363,7 +1363,14 @@ img{
 }
 
 
-@media(max-width:767px ){
+@media(max-width:720px ){
+	.logo {
+		height: 150px !important;
+		width: 150px !important;
+	}
+	.m-leftheader-botto {
+		font-size: 60% !important;
+	}
 	.headerback {
 		height: 100px;
 		width: 200px;
