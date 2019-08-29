@@ -143,7 +143,10 @@ img{
 	color: #fff;
 }
 
-
+.headerh1 {
+	text-align: center !important;
+	font-size: 20px !important;
+}
 .menu-area{
 	display: inline;	
 }
@@ -317,7 +320,16 @@ img{
 /* FEATURES */
 /*--------------------*/
 
+#header {
+	background-attachment: fixed !important;
+	background-image: url(banner\ up.jpg);
+	background-repeat: repeat;
+	background-size: cover;
 
+	display: inline;
+	
+	width: 100%;
+  }
 #features{
 	background-color: #fff;
 	display: inline;
