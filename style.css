@@ -1665,7 +1665,7 @@ img{
 }
 #feedback a {
 	display: block;
-	background:rgb(60, 57, 236);
+	background: #047f1b;
 	height: 52px;
 	padding-top: 10px;
 	width: 155px;
@@ -1677,7 +1677,7 @@ img{
 	text-decoration: none;
 }
 #feedback a:hover {
-	background:#00495d;
+	background:#021479;
 }
 
 @media(max-width:320px ){
